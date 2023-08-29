@@ -1,0 +1,379 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+/* navigation */
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    position: fixed;
+    width:100%;
+
+    background-color: rgb(174, 44, 44);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px ;
+    text-decoration: none;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+li :hover{
+    /* padding: 5px;
+    text-decoration: none; */
+    color: rgb(238, 116, 9);
+    font-size: 25px;
+    transition: 0.2s;
+
+}
+
+/* navigation */
+
+section#banner .banner-image{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 25px);
+    justify-content: center;
+    background-image:url(./img/bgpiizzza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    padding: 40px;}
+
+#main {
+    height: 500vh;
+}
+
+
+.text-first-pizza {
+    background-color: rgba(0, 0, 0, 0.282);
+    border-radius: 5px;
+    color: white;
+    font-size: 3.2rem;
+    margin: 0 0 10px;
+   
+    width: fit-content;
+    width: 610px;
+
+}
+
+.text-spicy-flavours {
+    color: white;
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+
+}
+
+.text-spicy-flavours a{
+    color: white;
+    font-size: 2.2rem;
+    text-decoration: none;
+    
+
+}
+
+.text-spicy-flavours a:hover{
+    color: rgb(184, 42, 42);
+    font-size: 3rem;
+    text-decoration: none;
+    transition: 0.2s;
+    border: 2px;
+    padding: 10px;
+
+}
+
+
+.ordernow-btn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: rgb(225, 48, 48);
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 130px;
+    align-items: center;
+    
+
+}
+
+.ordernow-btn a{
+    text-decoration: none;
+    -webkit-text-fill-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.featured-pizzas {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+    /* border: solid 1px; */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* border: solid 1px; */
+    margin: 30px;
+    margin-top: 50px;
+   
+
+}
+
+.column1 {
+   
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.column2 {
+   
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.column3 {
+    
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+
+.pizza-items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 200px 50px;
+    
+    margin-top: 50px;
+   
+}
+
+.itm-price {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.view-more-products {
+    display: flex;
+    justify-content: center;
+    /* margin: 70px; */
+    margin: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.334);
+    
+
+}
+
+.vmp-btn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: rgb(225, 48, 48);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.vmp-btn a{
+    text-decoration: none;
+    -webkit-text-fill-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+.section {
+
+    /* margin: 20px; */
+    justify-content: center;
+    
+
+}
+
+.section h3{
+    
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.comments {
+
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+    /* justify-content: space-between; */
+}
+
+.col1 {
+   
+    float: left;
+    width: 10rem;
+    height: 15rem;
+    padding: 40px;
+    
+}
+
+.col1 h2{
+    font-size: 4rem;
+    font-weight: bold;
+    
+    color: rgb(145, 145, 145);
+
+    
+}
+
+.col2 {
+    
+    float: left;
+    width: 30rem;
+    padding: 20px;
+}
+
+.col2 p{
+   
+    display: flex;
+   
+}
+
+.comment {
+  
+    padding: 30px;
+    font-size: 3.2rem;
+    height:10rem;
+    background-color: rgb(205, 205, 205);
+    
+}
+
+.comment p{
+    font-size: 1.3rem;
+}
+
+
+.commentor-name{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+
+
+
+.col3 {
+    
+    float: left;
+    width: 30rem;
+    padding: 20px;
+}
+
+.col3 p{
+
+    display: flex;
+}
+
+.comment {
+  
+    padding: 30px;
+    font-size: 3.2rem;
+    height:10rem;
+    background-color: rgb(205, 205, 205);
+    
+}
+
+.comment p{
+    font-size: 1.3rem;
+}
+
+
+
+/* .col4 {
+    border: solid 1px;
+    float: left;
+    width: 10rem;
+} */
+
+
+
+.col4 {
+    
+    width: 10rem;
+    height: 15rem;
+    padding: 40px;
+    
+}
+
+.col4 h2{
+    font-size: 4rem;
+    font-weight: bold;   
+    color: rgb(145, 145, 145);
+    
+}
+
+
+
+.footer {
+    margin-top: 6rem;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    padding: 40px;   
+    width:auto;
+}
+
+.footer h3 {
+    font-size: 1.3rem;
+}
+
